@@ -17,7 +17,7 @@ public class TV {
 	}
 	
 	// Metodos de TV
-	public void turnOn(boolean estado) {
+	public  void turnOn(boolean estado) {
 		this.estado = estado;
 	}
 	
@@ -70,7 +70,7 @@ public class TV {
 		this.precio = precio;
 	}
 	
-	public void setVolumen(int volumen) { 
+	public  void setVolumen(int volumen) { 
 		if(volumen>=0 && volumen <= 7) {
 			this.volumen = volumen;
 		}
@@ -82,6 +82,9 @@ public class TV {
 				this.canal = canal;
 			}
 		}
+	}
+	public void setNumTV() {
+		TV.numTV = 0;
 	}
 	
 	//Metodos GET
@@ -108,9 +111,11 @@ public class TV {
 	public boolean getEstado() {
 		return this.estado;
 	}
-	public int getnumTV() {
+	public static int getNumTV() {
 		return numTV;
 	}
+	
+	
 	
 	
 
