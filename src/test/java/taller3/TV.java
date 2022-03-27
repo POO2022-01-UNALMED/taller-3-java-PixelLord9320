@@ -85,8 +85,8 @@ public class TV {
 	}
 	
 	//Metodos GET
-	public Marca getMarca() {
-		return this.marca;
+	public String getMarca() {
+		return this.marca.getNombre();
 	}
 	
 	public Control getControl() {
