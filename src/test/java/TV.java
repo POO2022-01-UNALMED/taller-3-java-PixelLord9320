@@ -108,6 +108,9 @@ public class TV {
 	public boolean getEstado() {
 		return this.estado;
 	}
+	public int getnumTV() {
+		return numTV;
+	}
 	
 	
 
