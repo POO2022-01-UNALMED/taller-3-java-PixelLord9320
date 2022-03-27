@@ -10,8 +10,8 @@ public class TV {
 	private Control control;
 	public static int numTV=0;
 	
-	public TV(String marca, boolean estado) { // Constructor (Posible error)
-		 this.marca = new Marca(marca);
+	public TV(Marca marca, boolean estado) { // Constructor (Posible error)
+		 this.marca = new Marca(marca.getNombre());
 		 this.estado = estado;	
 		 numTV++;
 	}
