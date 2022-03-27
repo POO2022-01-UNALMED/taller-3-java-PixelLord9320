@@ -11,8 +11,8 @@ public class Marca {
 		return nombre;
 	}
 	
-	public void setNombre (String Mnombre) { // metodo SET
-		nombre = Mnombre;
+	public void setNombre (String nombre) { // metodo SET
+		this.nombre = nombre;
 	}
 	
 }
