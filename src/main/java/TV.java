@@ -113,4 +113,8 @@ public class TV {
 		return this.marca;
 	}
 	
+	public boolean getEstado() { 
+		return this.estado;
+	}
+	
 }
