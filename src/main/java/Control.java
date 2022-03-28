@@ -4,14 +4,14 @@ public class Control {
 	private  TV tv;
 	
 	//metodos set get 
-	void setTV(TV tv) {
+	public void setTV(TV tv) {
 		this.tv = tv;
 	}
-	TV getTV() {
+	public TV getTV() {
 		return tv;
 	}
 	
-	void enlazar(TV tv) {
+	public void enlazar(TV tv) {
 		this.tv = tv;
 		this.tv.setControl(this);
 	}
