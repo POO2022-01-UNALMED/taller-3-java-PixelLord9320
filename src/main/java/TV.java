@@ -10,13 +10,13 @@ public class TV {
 	private Control control;
 	public static int numTV=0;
 	
-	public TV(Marca marca, boolean estado) { // Constructor (Posible error)
+	public TV(Marca marca, boolean estado) { 
 		 this.marca = new Marca(marca.getNombre());
 		 this.estado = estado;	
 		 numTV++;
 	}
 	
-	// Metodos de TV
+	
 	public void turnOn() {
 		this.estado = true;
 	}
@@ -57,7 +57,7 @@ public class TV {
 		}
 	}
 	
-	// Metodos SET
+	
 	public void setMarca(String marca) { 
 		this.marca.setNombre(marca);
 	}
@@ -87,7 +87,7 @@ public class TV {
 		TV.numTV = 0;
 	}
 	
-	//Metodos GET
+	
 	public String getMarca() {
 		return this.marca.getNombre();
 	}
