@@ -10,8 +10,8 @@ public class TV {
 	static int numTV=0;
 	
 	//constructor tv
-	public TV(String marca, boolean estado) {
-		this.marca = new Marca(marca);
+	public TV(Marca marca, boolean estado) {
+		this.marca = marca;
 		this.estado = estado;
 	}
 	
@@ -74,6 +74,10 @@ public class TV {
 		this.control = control;
 	}
 	
+	public void setMarca(String marca) {
+		this.marca = new Marca(marca);
+	}
+	
 	//metodos get
 	public int getPrecio() {
 		return this.precio;
@@ -93,6 +97,10 @@ public class TV {
 	
 	public Control getControl() {
 		return this.control;
+	}
+	
+	public Marca getMarca() {
+		return this.marca;
 	}
 	
 }
