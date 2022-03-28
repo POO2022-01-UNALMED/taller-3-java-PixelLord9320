@@ -15,4 +15,22 @@ public class Control {
 		this.tv = tv;
 		tv.control = this;
 	}
+	public void turnOff() {
+		this.tv.turnOff();
+	}
+	public void turnOn() {
+		this.tv.turnOn();
+	}
+	public void canalUp() {
+		this.tv.canalUp();
+	}
+	public void canalDown() {
+		this.tv.canalDown();
+	}
+	public void volumenUp() {
+		this.tv.volumenUp();
+	}
+	public void volumenDown() {
+		this.tv.volumenDown();
+	}
 }
