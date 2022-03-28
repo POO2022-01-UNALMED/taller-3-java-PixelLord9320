@@ -17,12 +17,12 @@ public class TV {
 	}
 	
 	// Metodos de TV
-	 void turnOn(boolean estado) {
-		this.estado = estado;
+	public void turnOn() {
+		this.estado = true;
 	}
 	
-	 void turnOff(boolean estado) {
-		this.estado = estado;
+	public void turnOff() {
+		this.estado = false;
 	}
 	
 	public void canalUp() {
