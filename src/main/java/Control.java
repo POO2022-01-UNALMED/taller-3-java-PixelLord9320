@@ -13,6 +13,6 @@ public class Control {
 	
 	public void enlazar(TV tv) {
 		this.tv = tv;
-		this.tv.setControl(this);
+		tv.control = this;
 	}
 }

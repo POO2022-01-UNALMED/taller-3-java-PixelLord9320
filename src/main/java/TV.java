@@ -1,8 +1,8 @@
 package taller3.televisores;
 
 public class TV {
-	private Marca marca;
-	private Control control;
+	Marca marca;
+	Control control;
 	private int canal=1;
 	private int precio=500;
 	private int volumen=1;
