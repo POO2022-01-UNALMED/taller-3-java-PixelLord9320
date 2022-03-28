@@ -36,8 +36,8 @@ public class TV {
 		}
 	}
 	
-	public static void setNumTV(int numtv) {
-		numTV = numtv;
+	public static void setNumTV(int num) {
+		numTV = num;
 	}
 	
 	public void canalUp() {
