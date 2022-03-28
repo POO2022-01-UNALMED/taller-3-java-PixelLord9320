@@ -7,7 +7,7 @@ public class TV {
 	private int precio=500;
 	private int volumen=1;
 	private boolean estado;
-	static int numTV=0;
+	static int numTV;
 	
 	//constructor tv
 	public TV(Marca marca, boolean estado) {
@@ -37,7 +37,7 @@ public class TV {
 	}
 	
 	public static void setNumTV(int num) {
-		TV.numTV=num;
+		numTV=num;
 	}
 	
 	public void canalUp() {
