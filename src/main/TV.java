@@ -17,11 +17,11 @@ public class TV {
 	
 	
 	public void turnOn() {
-		this.estado = true;
+		estado = true;
 	}
 	
 	public void turnOff() {
-		this.estado = false;
+		estado = false;
 	}
 	
 	public void canalUp() {
@@ -88,7 +88,7 @@ public class TV {
 	
 	
 	public String getMarca() {
-		return this.marca.getNombre();
+		return marca.getNombre();
 	}
 	
 	public Control getControl() {
