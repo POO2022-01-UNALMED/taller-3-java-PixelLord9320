@@ -13,7 +13,7 @@ public class TV {
 	public TV(Marca marca, boolean estado) {
 		this.marca = new Marca(marca.getNombre());
 		this.estado = estado;
-		numTV++;
+		numTV+=1;
 	}
 	
 	//metodos set
