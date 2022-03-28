@@ -78,6 +78,14 @@ public class TV {
 		this.marca = new Marca(marca);
 	}
 	
+	public void turnOff() {
+		this.estado = false;
+	}
+	
+	public void turnOn() {
+		this.estado =true;
+	}
+	
 	//metodos get
 	public int getPrecio() {
 		return this.precio;
