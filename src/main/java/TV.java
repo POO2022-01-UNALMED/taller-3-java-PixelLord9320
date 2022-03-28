@@ -10,7 +10,7 @@ public class TV {
 	static int numTV=0;
 	
 	//constructor tv
-	public TV(String marca, boolean estado) {
+	public TV(Marca marca, boolean estado) {
 		this.marca = new Marca(marca);
 		this.estado = estado;
 	}
